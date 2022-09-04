@@ -5,7 +5,7 @@ public class TriangleSquare {
 
     }
 
-    public double TriangleSquareBy3Sides(int a, int b, int c) throws SquareCalculateException {
+    public double triangleSquareBy3Sides(int a, int b, int c) throws SquareCalculateException {
         if (a <= 0 || b <= 0 || c <= 0) {
             throw new SquareCalculateException();
         }

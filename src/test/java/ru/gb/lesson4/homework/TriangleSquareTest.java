@@ -23,27 +23,33 @@ public class TriangleSquareTest {
     }
 
     @ParameterizedTest
-    @MethodSource("CalculateSquareProvider")
-    void CalculateSquare(int a, int b) throws TriangleSquare.SquareCalculateException {
+    @MethodSource("calculateSquareProvider")
+    void calculateSquareTest(int a, int b) {
         logger.info("CalculateSquare...");
         Assertions.assertEquals(a, b);
     }
 
-    private static List<Arguments> CalculateSquareProvider() throws TriangleSquare.SquareCalculateException {
+    private static List<Arguments> calculateSquareProvider() throws TriangleSquare.SquareCalculateException {
         return Arrays.asList(
-                Arguments.of((int) new TriangleSquare().TriangleSquareBy3Sides(1, 2, 3), 18),
-                Arguments.of((int) new TriangleSquare().TriangleSquareBy3Sides(3, 4, 5), 77)
+                Arguments.of((int) new TriangleSquare().triangleSquareBy3Sides(1, 2, 3), 18),
+                Arguments.of((int) new TriangleSquare().triangleSquareBy3Sides(3, 4, 5), 77)
         );
     }
 
 
-    @Test
-    void CalculateSquareWithException() {
+//    @Test
+//    void calculateSquareWithExceptionTest() {
+//        logger.info("CalculateSquareWithException...");
+//        try {
+//            Assertions.assertEquals(0, new TriangleSquare().triangleSquareBy3Sides(0, 2, 3));
+//        } catch (TriangleSquare.SquareCalculateException thrown) {
+//            Assertions.assertNotEquals("", thrown.getMessage());
+//        }
+//    }
+
+    @Test()
+    void calculateSquareWithExceptionTest() {
         logger.info("CalculateSquareWithException...");
-        try {
-            Assertions.assertEquals(0, new TriangleSquare().TriangleSquareBy3Sides(0, 2, 3));
-        } catch (TriangleSquare.SquareCalculateException thrown) {
-            Assertions.assertNotEquals("", thrown.getMessage());
-        }
+        Assertions.assertThrows(TriangleSquare.SquareCalculateException.class, () -> new TriangleSquare().triangleSquareBy3Sides(0, 2, 3));
     }
 }

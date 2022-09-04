@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf32def7-446e-4da8-a305-838ebbfd5bfd" name="Changes" comment="First settings for Maven">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/BallCountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/Fuctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/homework/TriangleSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/AssertJExamplesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/BoxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/FuctionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/homework/TriangleSquareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+    <list default="true" id="cf32def7-446e-4da8-a305-838ebbfd5bfd" name="Changes" comment="lesson 4, homework 4: add TriangleSquare class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/homework/TriangleSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/homework/TriangleSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/homework/TriangleSquareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/homework/TriangleSquareTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +54,7 @@
       <command value="expected" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TriangleSquareTest">
+  <component name="RunManager" selected="JUnit.TriangleSquareTest.CalculateSquareWithException">
     <configuration name="FuctionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webui082022" />
       <extension name="coverage">
@@ -145,8 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TriangleSquareTest" />
         <item itemvalue="JUnit.TriangleSquareTest.CalculateSquareWithException" />
+        <item itemvalue="JUnit.TriangleSquareTest" />
         <item itemvalue="JUnit.TriangleSquareTest.CalculateSquare (1)" />
         <item itemvalue="JUnit.TriangleSquareTest.CalculateSquare" />
         <item itemvalue="JUnit.FuctionsTest" />
@@ -169,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661771351381</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson 4, homework 4: add TriangleSquare class">
+      <created>1662289786001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662289786001</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,7 +182,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First settings for Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="First settings for Maven" />
+    <MESSAGE value="lesson 4, homework 4: add TriangleSquare class" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 4, homework 4: add TriangleSquare class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
