@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf32def7-446e-4da8-a305-838ebbfd5bfd" name="Changes" comment="First settings for Maven">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson3/AfishaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson3/DiaryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson3/SeleniumStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson3/SetupBrowserExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson3/homework/qahacking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/BallCountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/Fuctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/homework/TriangleSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/AssertJExamplesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/BoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/FuctionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/homework/TriangleSquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,83 +52,104 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.gb.lesson4" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Work\IdeaProjects\webui082022\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.qahacking">
-    <configuration name="DiaryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson3.DiaryExample" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="expected" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TriangleSquareTest">
+    <configuration name="FuctionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webui082022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.lesson3.*" />
+          <option name="PATTERN" value="ru.gb.lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.lesson4" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson4.FuctionsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="qahacking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson3.homework.qahacking" />
+    <configuration name="TriangleSquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webui082022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.lesson3.homework.*" />
+          <option name="PATTERN" value="ru.gb.lesson4.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.lesson4.homework" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson4.homework.TriangleSquareTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.lesson3.AfishaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson3.AfishaExample" />
+    <configuration name="TriangleSquareTest.CalculateSquare (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webui082022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.lesson3.*" />
+          <option name="PATTERN" value="ru.gb.lesson4.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.lesson4.homework" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson4.homework.TriangleSquareTest" />
+      <option name="METHOD_NAME" value="CalculateSquare(int,int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.lesson3.SeleniumStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson3.SeleniumStart" />
+    <configuration name="TriangleSquareTest.CalculateSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webui082022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.lesson3.*" />
+          <option name="PATTERN" value="ru.gb.lesson4.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.lesson4.homework" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson4.homework.TriangleSquareTest" />
+      <option name="METHOD_NAME" value="CalculateSquare" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.lesson3.SetupBrowserExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson3.SetupBrowserExamples" />
+    <configuration name="TriangleSquareTest.CalculateSquareWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webui082022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.lesson3.*" />
+          <option name="PATTERN" value="ru.gb.lesson4.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.lesson4.homework" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson4.homework.TriangleSquareTest" />
+      <option name="METHOD_NAME" value="CalculateSquareWithException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.qahacking" />
-        <item itemvalue="Application.DiaryExample" />
-        <item itemvalue="Application.ru.gb.lesson3.AfishaExample" />
-        <item itemvalue="Application.ru.gb.lesson3.SetupBrowserExamples" />
-        <item itemvalue="Application.ru.gb.lesson3.SeleniumStart" />
+        <item itemvalue="JUnit.TriangleSquareTest" />
+        <item itemvalue="JUnit.TriangleSquareTest.CalculateSquareWithException" />
+        <item itemvalue="JUnit.TriangleSquareTest.CalculateSquare (1)" />
+        <item itemvalue="JUnit.TriangleSquareTest.CalculateSquare" />
+        <item itemvalue="JUnit.FuctionsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -160,5 +186,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First settings for Maven" />
     <option name="LAST_COMMIT_MESSAGE" value="First settings for Maven" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar!/org/junit/jupiter/api/Test.class</url>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/webui082022$FuctionsTest.ic" NAME="FuctionsTest Coverage Results" MODIFIED="1662280205536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.gb.lesson4.*</FILTER>
+    </SUITE>
   </component>
 </project>
