@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf32def7-446e-4da8-a305-838ebbfd5bfd" name="Changes" comment="lesson 4, homework 4: add TriangleSquare class">
+    <list default="true" id="cf32def7-446e-4da8-a305-838ebbfd5bfd" name="Changes" comment="add lesson4">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson5/homework/EldoradoRuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson5/homework/PosudacenterRuTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/homework/TriangleSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson4/homework/TriangleSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/homework/TriangleSquareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/homework/TriangleSquareTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="a505048f5bfc8fb75b0e3dc6d56969d8b8318a84" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -38,6 +43,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Work/IdeaProjects/job4j&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
@@ -54,64 +60,65 @@
       <command value="expected" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TriangleSquareTest.CalculateSquareWithException">
-    <configuration name="FuctionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EldoradoRuTest">
+    <configuration name="EldoradoRuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webui082022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.lesson4.*" />
+          <option name="PATTERN" value="ru.gb.lesson5.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.lesson4" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson4.FuctionsTest" />
+      <option name="PACKAGE_NAME" value="ru.gb.lesson5.homework" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson5.homework.EldoradoRuTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleSquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EldoradoRuTest.SearchWrenchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webui082022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.lesson4.homework.*" />
+          <option name="PATTERN" value="ru.gb.lesson5.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.lesson4.homework" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson4.homework.TriangleSquareTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleSquareTest.CalculateSquare (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webui082022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.lesson4.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.lesson4.homework" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson4.homework.TriangleSquareTest" />
-      <option name="METHOD_NAME" value="CalculateSquare(int,int)" />
+      <option name="PACKAGE_NAME" value="ru.gb.lesson5.homework" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson5.homework.EldoradoRuTest" />
+      <option name="METHOD_NAME" value="SearchWrenchTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleSquareTest.CalculateSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PosudacenterRuTest.searchKettleLUCKYTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webui082022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.lesson4.homework.*" />
+          <option name="PATTERN" value="ru.gb.lesson5.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.lesson4.homework" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson4.homework.TriangleSquareTest" />
-      <option name="METHOD_NAME" value="CalculateSquare" />
+      <option name="PACKAGE_NAME" value="ru.gb.lesson5.homework" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson5.homework.PosudacenterRuTest" />
+      <option name="METHOD_NAME" value="searchKettleLUCKYTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PosudacenterRuTest.searchNoresulysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webui082022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.lesson5.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.lesson5.homework" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson5.homework.PosudacenterRuTest" />
+      <option name="METHOD_NAME" value="searchNoresulysTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EldoradoRuTest" />
+        <item itemvalue="JUnit.PosudacenterRuTest.searchNoresulysTest" />
+        <item itemvalue="JUnit.PosudacenterRuTest.searchKettleLUCKYTest" />
+        <item itemvalue="JUnit.EldoradoRuTest.SearchWrenchTest" />
         <item itemvalue="JUnit.TriangleSquareTest.CalculateSquareWithException" />
-        <item itemvalue="JUnit.TriangleSquareTest" />
-        <item itemvalue="JUnit.TriangleSquareTest.CalculateSquare (1)" />
-        <item itemvalue="JUnit.TriangleSquareTest.CalculateSquare" />
-        <item itemvalue="JUnit.FuctionsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662289786001</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rewrite calculateSquareWithExceptionTest. Refactoring">
+      <created>1662328602283</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662328602283</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add lesson4">
+      <created>1663478349406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663478349406</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +204,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First settings for Maven" />
     <MESSAGE value="lesson 4, homework 4: add TriangleSquare class" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 4, homework 4: add TriangleSquare class" />
+    <MESSAGE value="rewrite calculateSquareWithExceptionTest. Refactoring" />
+    <MESSAGE value="add lesson4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lesson4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -191,6 +214,15 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar!/org/junit/jupiter/api/Test.class</url>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/gb/lesson5/AfishaTest.java</url>
+          <line>32</line>
+          <properties class="ru.gb.lesson5.AfishaTest" method="goToOkkoTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
