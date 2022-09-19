@@ -33,7 +33,7 @@ public class EldoradoRuTest {
     }
 
     @Test
-    void SearchWrenchTest() {
+    void searchWrenchTest() throws InterruptedException {
         //div[@class='ir'] or //span[contains(text(),'Ваш регион')]/..
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[.='Да, верно']")));
         driver.findElement(By.xpath("//button[.='Да, верно']")).click();
@@ -51,6 +51,7 @@ public class EldoradoRuTest {
         actions.click(driver.findElement(By.xpath("//button[@type='submit' and .='Найти']"))).perform();
 
         Assertions.assertTrue(driver.findElement(By.xpath("//li[1]//div//a[contains(text(),'Смартфон')]")).isDisplayed());
+        Thread.sleep(5000);
     }
 
     @AfterEach
