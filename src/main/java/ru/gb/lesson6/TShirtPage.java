@@ -34,7 +34,6 @@ public class TShirtPage extends BaseView {
 
     @FindBy(xpath = "//div[@class='product-container']")
     private List<WebElement> dressesList;
-
     private static final String addToCartButtonXPathLocator = "//span[.='Add to cart']";
 
     @FindBy(xpath = addToCartButtonXPathLocator)

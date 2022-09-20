@@ -22,4 +22,16 @@ public class SuccessBlock extends BaseView{
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(iconOkXPathLocator)));
         Assertions.assertEquals(expectedSumma, totalSumma.getText());
     }
+
+    private static final String proceedToCheckoutButtonLocator = "//span[contains(.,'Proceed to checkout')]";
+    @FindBy(xpath = proceedToCheckoutButtonLocator)
+    private WebElement proceedToCheckoutButton;
+
+    public BasketPage addGoodToBasket() {
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(proceedToCheckoutButtonLocator)));
+        actions.moveToElement(proceedToCheckoutButton)
+                .click()
+                .perform();
+        return new BasketPage(driver);
+    }
 }

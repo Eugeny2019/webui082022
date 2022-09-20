@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf32def7-446e-4da8-a305-838ebbfd5bfd" name="Changes" comment="homework 5 searchWrenchTest in EldoradoRuTest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/BaseView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/MyAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/NavigationBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/SuccessBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/TShirtPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson6/BuyTShirtTest.java" afterDir="false" />
+    <list default="true" id="cf32def7-446e-4da8-a305-838ebbfd5bfd" name="Changes" comment="lesson6 PageObject">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/BasketPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/SuccessBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/SuccessBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/TShirtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/TShirtPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/lesson6/BuyTShirtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson6/BuyTShirtTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +62,7 @@
       <command value="expected" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BuyTShirtTest.bueTShirtTest">
+  <component name="RunManager" selected="JUnit.BuyTShirtTest.deleteGoodFromBasket">
     <configuration name="BuyTShirtTest.bueTShirtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webui082022" />
       <extension name="coverage">
@@ -79,6 +74,22 @@
       <option name="PACKAGE_NAME" value="ru.gb.lesson6" />
       <option name="MAIN_CLASS_NAME" value="ru.gb.lesson6.BuyTShirtTest" />
       <option name="METHOD_NAME" value="bueTShirtTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuyTShirtTest.deleteGoodFromBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webui082022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.lesson6" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson6.BuyTShirtTest" />
+      <option name="METHOD_NAME" value="deleteGoodFromBasket" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,22 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosudacenterRuTest.searchKettleLUCKYTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webui082022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.lesson5.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.lesson5.homework" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson5.homework.PosudacenterRuTest" />
-      <option name="METHOD_NAME" value="searchKettleLUCKYTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PosudacenterRuTest.searchNoresulysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webui082022" />
       <extension name="coverage">
@@ -149,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BuyTShirtTest.deleteGoodFromBasket" />
         <item itemvalue="JUnit.BuyTShirtTest.bueTShirtTest" />
         <item itemvalue="JUnit.EldoradoRuTest.SearchWrenchTest" />
         <item itemvalue="JUnit.EldoradoRuTest" />
         <item itemvalue="JUnit.PosudacenterRuTest.searchNoresulysTest" />
-        <item itemvalue="JUnit.PosudacenterRuTest.searchKettleLUCKYTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663575281367</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson6 PageObject">
+      <created>1663677621480</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663677621480</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,7 +231,8 @@
     <MESSAGE value="add lesson4" />
     <MESSAGE value="homework 5 PosudacenterRuTest" />
     <MESSAGE value="homework 5 searchWrenchTest in EldoradoRuTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 5 searchWrenchTest in EldoradoRuTest" />
+    <MESSAGE value="lesson6 PageObject" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson6 PageObject" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

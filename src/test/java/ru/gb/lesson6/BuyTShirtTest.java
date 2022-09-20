@@ -35,6 +35,19 @@ public class BuyTShirtTest {
                 .checkTotalSumma("$18.51");
     }
 
+    @Test
+    public void deleteGoodFromBasket () {
+        mainPage.clickSignInButton()
+                .login("evch@rambler.ru", "test4test")
+                .navigationBlock.hoverWomenMenuAndClickTShirts()
+                .selectSize("S")
+                .moveLeftPriceSliderElement(5)
+                .addToCardByName("Faded")
+                .addGoodToBasket()
+                .deleteGoodFromBasket()
+                .checkBasketIsEmpty();
+    }
+
     @AfterEach
     void tearDown() {
         driver.quit();
