@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf32def7-446e-4da8-a305-838ebbfd5bfd" name="Changes" comment="add lesson4">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson5/homework/EldoradoRuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson5/homework/PosudacenterRuTest.java" afterDir="false" />
+    <list default="true" id="cf32def7-446e-4da8-a305-838ebbfd5bfd" name="Changes" comment="homework 5 searchWrenchTest in EldoradoRuTest">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/BaseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/MyAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/NavigationBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/SuccessBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/TShirtPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson6/BuyTShirtTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +67,23 @@
       <command value="expected" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EldoradoRuTest">
+  <component name="RunManager" selected="JUnit.BuyTShirtTest.bueTShirtTest">
+    <configuration name="BuyTShirtTest.bueTShirtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webui082022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.lesson6" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson6.BuyTShirtTest" />
+      <option name="METHOD_NAME" value="bueTShirtTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EldoradoRuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webui082022" />
       <extension name="coverage">
@@ -124,29 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleSquareTest.CalculateSquareWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webui082022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.lesson4.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.lesson4.homework" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson4.homework.TriangleSquareTest" />
-      <option name="METHOD_NAME" value="CalculateSquareWithException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BuyTShirtTest.bueTShirtTest" />
+        <item itemvalue="JUnit.EldoradoRuTest.SearchWrenchTest" />
         <item itemvalue="JUnit.EldoradoRuTest" />
         <item itemvalue="JUnit.PosudacenterRuTest.searchNoresulysTest" />
         <item itemvalue="JUnit.PosudacenterRuTest.searchKettleLUCKYTest" />
-        <item itemvalue="JUnit.EldoradoRuTest.SearchWrenchTest" />
-        <item itemvalue="JUnit.TriangleSquareTest.CalculateSquareWithException" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663478349406</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="homework 5 PosudacenterRuTest">
+      <created>1663492569827</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663492569827</updated>
+    </task>
+    <task id="LOCAL-00006" summary="homework 5 searchWrenchTest in EldoradoRuTest">
+      <created>1663575281367</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663575281367</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,7 +227,9 @@
     <MESSAGE value="lesson 4, homework 4: add TriangleSquare class" />
     <MESSAGE value="rewrite calculateSquareWithExceptionTest. Refactoring" />
     <MESSAGE value="add lesson4" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson4" />
+    <MESSAGE value="homework 5 PosudacenterRuTest" />
+    <MESSAGE value="homework 5 searchWrenchTest in EldoradoRuTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 5 searchWrenchTest in EldoradoRuTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -214,6 +237,11 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar!/org/junit/jupiter/api/Test.class</url>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/gb/lesson5/homework/EldoradoRuTest.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/ru/gb/lesson5/AfishaTest.java</url>
