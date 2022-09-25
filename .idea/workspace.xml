@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf32def7-446e-4da8-a305-838ebbfd5bfd" name="Changes" comment="lesson6 PageObject">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson7/AdditionalLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson7/JUnitExtention.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/BasketPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/NavigationBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/NavigationBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/SuccessBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/SuccessBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/TShirtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/TShirtPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/lesson6/BuyTShirtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson6/BuyTShirtTest.java" afterDir="false" />
+    <list default="true" id="cf32def7-446e-4da8-a305-838ebbfd5bfd" name="Changes" comment="lesson7 add allure report + attach report to my code (dz)">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson3/homework/qahacking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson3/homework/qahacking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663677621480</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lesson7 add allure report + attach report to my code (dz)">
+      <created>1664103864488</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664103864488</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +241,8 @@
     <MESSAGE value="homework 5 PosudacenterRuTest" />
     <MESSAGE value="homework 5 searchWrenchTest in EldoradoRuTest" />
     <MESSAGE value="lesson6 PageObject" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson6 PageObject" />
+    <MESSAGE value="lesson7 add allure report + attach report to my code (dz)" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson7 add allure report + attach report to my code (dz)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
