@@ -1,5 +1,6 @@
 package ru.gb.lesson6;
 
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,6 +17,7 @@ public class BasketPage extends BaseView{
     @FindBy(xpath = deleteButtonLocator)
     private WebElement deleteButton;
 
+    @Step("Удаление товара из корзины")
     public BasketPage deleteGoodFromBasket(){
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(deleteButtonLocator)));
         actions.moveToElement(deleteButton)

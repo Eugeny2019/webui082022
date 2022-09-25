@@ -1,5 +1,6 @@
 package ru.gb.lesson6;
 
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +19,7 @@ public class SuccessBlock extends BaseView{
 
     private final static String iconOkXPathLocator = "//i[@class='icon-ok']";
 
+    @Step("Проверить сумму")
     public void checkTotalSumma(String expectedSumma) {
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(iconOkXPathLocator)));
         Assertions.assertEquals(expectedSumma, totalSumma.getText());
@@ -27,6 +29,7 @@ public class SuccessBlock extends BaseView{
     @FindBy(xpath = proceedToCheckoutButtonLocator)
     private WebElement proceedToCheckoutButton;
 
+    @Step("Добавить товар в корзину")
     public BasketPage addGoodToBasket() {
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(proceedToCheckoutButtonLocator)));
         actions.moveToElement(proceedToCheckoutButton)

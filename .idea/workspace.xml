@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf32def7-446e-4da8-a305-838ebbfd5bfd" name="Changes" comment="lesson6 PageObject">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/BasketPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson7/AdditionalLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson7/JUnitExtention.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/BasketPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/NavigationBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/NavigationBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/SuccessBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/SuccessBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/TShirtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/TShirtPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/lesson6/BuyTShirtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson6/BuyTShirtTest.java" afterDir="false" />
@@ -26,13 +33,20 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="a505048f5bfc8fb75b0e3dc6d56969d8b8318a84" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2E1imrA78b4PdfhCPwmYvfkJFbm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -62,7 +76,22 @@
       <command value="expected" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BuyTShirtTest.deleteGoodFromBasket">
+  <component name="RunManager" selected="JUnit.BuyTShirtTest">
+    <configuration name="BuyTShirtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webui082022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.lesson6" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson6.BuyTShirtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BuyTShirtTest.bueTShirtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webui082022" />
       <extension name="coverage">
@@ -126,29 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosudacenterRuTest.searchNoresulysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webui082022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.lesson5.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.lesson5.homework" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson5.homework.PosudacenterRuTest" />
-      <option name="METHOD_NAME" value="searchNoresulysTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BuyTShirtTest.deleteGoodFromBasket" />
+        <item itemvalue="JUnit.BuyTShirtTest" />
         <item itemvalue="JUnit.BuyTShirtTest.bueTShirtTest" />
+        <item itemvalue="JUnit.BuyTShirtTest.deleteGoodFromBasket" />
         <item itemvalue="JUnit.EldoradoRuTest.SearchWrenchTest" />
         <item itemvalue="JUnit.EldoradoRuTest" />
-        <item itemvalue="JUnit.PosudacenterRuTest.searchNoresulysTest" />
       </list>
     </recent_temporary>
   </component>

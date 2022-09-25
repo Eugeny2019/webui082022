@@ -1,5 +1,6 @@
 package ru.gb.lesson6;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,6 +17,7 @@ public class TShirtPage extends BaseView {
     @FindBy(xpath = "//span[.='Size']/ancestor::div[@class='layered_filter']//a")
     private List<WebElement> sizesList;
 
+    @Step("Выбрать размер")
     public TShirtPage selectSize(String size) {
         webDriverWait.until(d -> sizesList.size() > 0);
         sizesList.stream().filter(s -> s.getText().contains(size)).findFirst().get().click();
@@ -25,6 +27,7 @@ public class TShirtPage extends BaseView {
     @FindBy(xpath = "//div[contains(@class,'slider')]/a[1]")
     private WebElement leftPriceSliderElement;
 
+    @Step("Изменить фильтр стоимости")
     public TShirtPage moveLeftPriceSliderElement(int pixelsCount) {
         actions.clickAndHold(leftPriceSliderElement)
                 .moveByOffset(pixelsCount, 0)
@@ -39,6 +42,7 @@ public class TShirtPage extends BaseView {
     @FindBy(xpath = addToCartButtonXPathLocator)
     private WebElement addToCartButton;
 
+    @Step("Добавить в карточку по названию")
     public SuccessBlock addToCardByName(String tshirtName) {
         actions.moveToElement(driver.findElement(By.xpath("//a[@class='product-name' and @title='Faded Short Sleeve T-shirts']")))
                 .perform();

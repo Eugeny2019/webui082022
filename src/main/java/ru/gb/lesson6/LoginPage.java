@@ -1,5 +1,6 @@
 package ru.gb.lesson6;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,6 +20,7 @@ public class LoginPage extends BaseView {
     @FindBy(id = "SubmitLogin")
     private WebElement submitButton;
 
+    @Step("Login")
     public void setEmailField(String login) {
         emailField.sendKeys(login);
     }
